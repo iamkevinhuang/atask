@@ -1,0 +1,24 @@
+en:
+  helper:
+    currency:
+      idr: "IDR"
+    errors:
+      invalid_limit_or_current_page: "Limit dan Halaman harus lebih besar dari 0."
+  transaction:
+    types:
+      deposit: "Deposit"
+      withdrawal: "Withdrawal"
+      transfer: "Transfer"
+    messages:
+      created: "%{type} successfully"
+    errors:
+      deposit_wallet_required: "must exist for Deposit transactions"
+      withdrawal_wallet_required: "must exist for Withdrawal transactions"
+      transfer_wallets_required: "Both from_wallet and to_wallet must exist for Transfer transactions"
+      exceeds_balance: "exceeds available balance"
+  session:
+    messages:
+      logged_out: "Logged out successfully"
+    errors:
+      invalid_credential: 'is invalid or password is incorrect'
+      unauthorized: "You need to log in to access this resource"
