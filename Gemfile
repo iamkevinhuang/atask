@@ -46,4 +46,4 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 end
 
-gem "blueprinter", "~> 1.1", ">= 1.1.2"
+gem "blueprinter", "~> 1.2"
